@@ -1,15 +1,4 @@
 {
-  "expo": {
-    "name": "Velaud Store",
-    "slug": "velaud-store",
-    "version": "0.1.0",
-    "orientation": "portrait",
-    "userInterfaceStyle": "dark",
-    "android": {
-      "package": "com.aivelaud.velaudstore",
-      "adaptiveIcon": {
-        "backgroundColor": "#101B18"
-      }
-    }
-  }
+  "name": "VelaudStore",
+  "displayName": "Velaud Store"
 }

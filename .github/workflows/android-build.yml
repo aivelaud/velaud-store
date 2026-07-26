@@ -36,8 +36,8 @@ jobs:
       - name: Install JavaScript dependencies
         run: npm ci
 
-      # The Expo template signs its initial release variant with the Android
-      # debug key. It is ignored by Git, so CI creates it only for this build.
+      # The Android template signs its initial release variant with the debug
+      # key. It is ignored by Git, so CI creates it only for this build.
       # Replace this with a secret-backed production key before Play release.
       - name: Create CI signing keystore
         working-directory: android/app
